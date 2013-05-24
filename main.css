@@ -1,0 +1,603 @@
+/* main.css */
+
+body {
+	max-width: 960px;
+	margin: 5px auto;
+	background-color: #ccc;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727)); 
+	background: -webkit-linear-gradient(top, #1a82f7, #2F2727); 
+	background: -moz-linear-gradient(top, #1a82f7, #2F2727); 
+	background: -ms-linear-gradient(top, #1a82f7, #2F2727); 
+	background: -o-linear-gradient(top, #1a82f7, #2F2727);
+	}
+
+hr {
+	width: 93.75%;
+	clear: both;
+	margin: 2.08333% auto;
+}
+
+/*-----------------------------------BEGIN CONTAINER------------------------------------*/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 5px #999;
+	-moz-box-shadow: 0 0 5px #999;
+	-webkit-box-shadow: 0 0 5px #999;
+}
+
+/*--------------------------BEGIN HEADER-----------------------*/
+header {
+	width: 100%;
+	height: 75px;
+	background: url(../images/header_bg.jpg);
+	background-color: #9c9797;
+	box-shadow: 0 2px 3px #999;
+	-moz-box-shadow: 0 2px 3px #999;
+	-webkit-box-shadow: 0 2px 3px #999;
+}
+
+
+/*--------------BEGIN LOGO-----------------------*/
+
+#logo {
+	margin-left: 1.04166666666667%;
+}
+
+#logo_image {
+	float: left;
+	width: 15.625%;
+	height: 250px;
+}
+
+#logo_image img{
+	max-width: 100%;
+}
+
+#logo h1 {
+	width: 41.66666666666667%;
+	float: left;
+	margin: 10px 0 0 -6.25%;
+  	font: 3.5em/150% 'Tangerine', serif;
+  	text-shadow: 4px 4px 4px #fff;
+}
+/*-----------------END LOGO-----------------------*/
+
+
+/*---------------BEGIN NAV-----------------------*/
+nav {
+	width: 41.66666666666667%; 
+	height 75px;
+	float: left;
+	margin-left: 1.04166666666667%;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: block;
+	width: 28.75%;
+	margin-top: 35px;
+	float: left;
+	font: 1.3em "myriad pro", "sans serif";
+}
+
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+	text-shadow: 2px 2px 2px #fff;
+	-moz-text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
+}
+
+a:visited {
+	color: blue;
+	text-shadow: 2px 2px 2px #000;
+	-moz-text-shadow: 2px 2px 2px #000;
+	-webkit-text-shadow: 2px 2px 2px #000;
+}
+
+a:hover {
+	color: #fff;	
+	text-shadow: 2px 2px 2px #000;
+	-moz-text-shadow: 2px 2px 2px #000;
+	-webkit-text-shadow: 2px 2px 2px #000;
+}
+
+a:active {
+	color: red;
+	text-shadow: 2px 2px 2px #fff;
+	-moz-text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
+}
+/*------------------END NAV-----------------------*/
+
+
+
+
+/*----------------------------END HEADER------------------------*/
+
+
+
+
+/*--------------------BEGIN MAIN CONTENT------------------------*/
+
+.autism_info h1 {
+	width: 18.75%;
+	margin: 30px auto;
+}
+
+aside {
+	margin: 40px 0 40px -15.625%;
+	width: 55.20833333333333%;
+	float: left;
+}
+
+/*---------------BEGIN SIGN UP CALL TO ACTION-------------------*/
+#sign_up {
+	text-align: center;
+	font: 1em/100% Arial, Helvetica, sans-serif;
+	margin: 40px 1.04166666666667% 0 0;
+	width: 41.66666666666667%;
+	height: 150px;
+	background-color: #c3c3c3;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	float: right;
+}
+
+#sbutton {
+	width: 45%;
+	margin: 12.5% auto;
+}
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	width: 55.55555555555556%;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 1.125em/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+/*-----------------END SIGN UP CALL TO ACTION-------------------*/
+
+
+
+#about {
+	text-align: center;
+	margin: 20px auto;
+}
+
+#about_us {
+	width: 97.91666666666667%;
+	padding: 1.06382978723404%;
+	column-count: 3;
+	-moz-column-count: 3;	
+	-webkit-column-count: 3;
+}
+
+/*----------------------END MAIN CONTENT------------------------*/
+
+
+/*-------------------BEGIN PICTURE GALLERY----------------------*/
+
+
+#pictures {
+	text-align: center;
+	width: 100%;
+
+}
+
+#pictures ul {
+	width: 93.75%;
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0.55555555555556%;
+	overflow: hidden;
+}
+
+#pictures ul li {
+	float: left;
+	margin: 0 0 20px 0.55555555555556%;
+}
+
+#pictures ul li a {
+	height: 110px;
+	width: 95%;
+	border: 5px solid #ccc;
+	display: block;
+	outline: 0;
+}
+
+#pictures ul li a:visited {
+	border-color: blue;
+}
+
+#pictures ul li a:hover {
+	border-color: black;
+}
+
+#pictures ul li a:active {
+	border-color: red;
+}
+
+/*---------------------END PICTURE GALLERY----------------------*/
+
+
+
+/*-------------------BEGIN SIGNUP FORM--------------------------*/
+#form {
+	clear: both;
+	margin: 20px auto;
+	width: 97.91666666666667%;
+	height: 500px;
+	background-color: #c3c3c3;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+/*---------------------END SIGNUP FORM--------------------------*/
+
+
+.btmbutton {
+	width: 10%;
+	float: right;
+}
+
+/*----------------------BEGIN FOOTER-----------------------------*/
+footer {
+	background: url(../images/footer_bg.jpg);
+	width: 100%;
+	height: 40px;
+	background-color: #9c9797;
+	overflow: hidden;
+}
+
+footer ul li {
+	font-weight: bold;
+	list-style-type: none;
+	float: left;
+	margin-left: 5.20833333333333%;
+}
+
+/*------------------------END FOOTER-----------------------------*/
+
+/*-------------------------------------END CONTAINER------------------------------------*/
+
+
+
+ 
+
+/* Media Queries */
+
+ 
+
+/* Tablet Portrait size to standard 960 (devices and browsers)*/
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+ 	#container {
+ 		margin: 0.52083333333333%;
+ 	}
+ 	
+ 	 #logo h1 {
+		width: 20.83333333333333%; 
+		float: left;
+		margin: 10px 0 0 -6.25%;
+  		font: 3.5em/150% 'Tangerine', serif;
+  		text-shadow: 4px 4px 4px #fff;
+ 	}
+	nav {
+		width: 68%;
+		float: right;
+		
+	}
+	
+	nav ul li {
+		list-style-type: none;
+		display: block;
+		float: left;
+		margin-top: 35px;
+		font: 1.3em/100% "myriad pro", "sans serif";
+	}
+
+	.autism_info h1 {
+		width: 23%;
+		margin: 30px auto;
+	}
+	
+	
+	aside {
+		margin: 40px 0 40px -29.625%;	
+	}
+	
+	#sign_up {
+		text-align: center;
+		font: 1em/100% Arial, Helvetica, sans-serif;
+		margin: 40px 1.04166666666667% 0 0;
+		width: 41.66666666666667%;
+		height: 150px;
+		background-color: #c3c3c3;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		float: right;
+	}
+	
+	#pictures ul {
+		width: 59%;
+	}
+	
+	.btmbutton {
+		width: 30%;
+	}
+	
+	.streetview{
+		display: none;
+	}
+	
+}
+	
+	
+
+
+ 
+
+/* Mobile Landscape size to Tablet Portrait (devices and browsers)*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  	#container {
+ 		margin: 0.52083333333333%;
+ 	}
+ 	
+ 	 #logo h1 {
+		width: 20.83333333333333%;
+		float: left;
+		margin: 10px 0 0 -6.25%;
+  		font: 3.5em/150% 'Tangerine', serif;
+  		text-shadow: 4px 4px 4px #fff;
+ 	}
+ 	
+	nav {
+		width: 68%;
+		float: right;
+		
+	}
+	
+	nav ul li {
+		list-style-type: none;
+		display: block;
+		float: left;
+		margin-top: 35px;
+		font: 1.3em/100% "myriad pro", "sans serif";
+	}
+	
+	
+	.autism_info h1 {
+		width: 50%;
+		padding-left: 20%;
+		margin:10px 15%;
+		float: left;
+	}
+	
+	article {
+		float: left;
+		padding: 0 2%;
+	}
+	
+	aside {
+		width: 60%;
+		margin: 20px 0 0 22%;
+		float: left;
+	}
+	
+	
+	#sign_up {
+	text-align: center;
+	font: 1em/100% Arial, Helvetica, sans-serif;
+	margin: 20px 0 20px 15.08333333333333%;
+	width: 70%;
+	float: left;
+	}
+	
+	#sbutton {
+		margin: 50px auto;
+	}
+	
+	#about_us {
+		width: 97.91666666666667%;
+		padding: 1.06382978723404%;
+		column-count: 1;
+		-moz-column-count: 1;	
+		-webkit-column-count: 1;
+	}
+
+	#pictures ul {
+		width: 80%;
+	}
+
+	.btmbutton {
+		width: 30%;
+	}
+
+	.streetview{
+		display: none;
+	}
+	
+	.cityview{
+		display: none;
+	}
+}
+
+ 
+
+/* Mobile Portrait size to Mobile Landscape  (devices and browsers)*/
+
+@media screen and (max-width: 479px) {
+
+  	#container {
+ 		margin: 0.52083333333333%;
+ 	}
+ 	
+	#logo_image {
+		display: none;
+	}
+	
+	#logo_image img{
+		display: none;
+	}
+	
+ 	#logo h1 {
+		width: 100%; 
+		float: left;
+		margin: 10px 0 0 1.04166666666667%; /* 10 / 960 */
+  		font: 3.5em/150% 'Tangerine', serif;
+  		text-shadow: 4px 4px 4px #fff;
+ 	}
+ 	
+	nav {
+		width: 100%;
+		height 75px;
+		margin-left: 1.04166666666667%;
+	}
+	
+	nav ul li {
+		list-style-type: none;
+		display: block;
+		float: left;
+		margin-top: 0;
+		font: 1.3em "myriad pro", "sans serif";
+	}
+	
+	.autism_info h1 {
+		width: 100%;
+		text-align: center;
+		margin: 100px 0 20px 0;
+
+	}
+	
+	article {
+		float: left;
+		padding: 0 2%;
+	}
+	
+	aside {
+		width: 60%;
+		margin: 20px 0 0 22%;
+		float: left;
+	}
+	
+	
+	#sign_up {
+	text-align: center;
+	font: 1em/100% Arial, Helvetica, sans-serif;
+	margin: 20px 0 20px 15.08333333333333%;
+	width: 70%;
+	float: left;
+	}
+
+	#about_us {
+		width: 97.91666666666667%;
+		padding: 1.06382978723404%;
+		column-count: 1;
+		-moz-column-count: 1;	
+		-webkit-column-count: 1;
+	}
+
+	#pictures {
+		margin: 0 auto;
+	
+	}
+
+	#pictures ul {
+		width: 47%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	#pictures ul li {
+		float: left;
+		margin: 0 0 20px 0.55555555555556%;
+	}
+	
+	#pictures ul li a {
+		height: 110px;
+		width: 95%;
+		border: 5px solid #ccc;
+		display: block;
+		outline: 0;
+	}
+	
+	.btmbutton {
+		width: 30%;
+	}
+	.streetview{
+		display: none;
+	}
+	
+	.cityview{
+		display: none;
+	}
+	
+	.resview{
+		display: none;
+	}
+}
+
+
+
+
