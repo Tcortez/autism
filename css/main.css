@@ -275,21 +275,170 @@ aside {
 
 /*---------------------END PICTURE GALLERY----------------------*/
 
+/*--------------------------BEGIN SIGN UP FORM AND TABLE------------------------------*/
 
 
-/*-------------------BEGIN SIGNUP FORM--------------------------*/
-#form {
+#table_form {
 	clear: both;
-	margin: 20px auto;
-	width: 97.91666666666667%;
-	height: 500px;
+	padding-bottom: 0.3em;
+	margin: 0px auto;
+	width: 45%;
+	text-align: center;
+}
+
+#form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+/*---------------------BEGIN TABLE------------------------------*/
+
+table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	padding: 0.3em;
+	text-align: center;
+}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px
+}
+
+th {
+	background-color: #004c99;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	-moz-text-shadow: 2px 2px 2px #000;
+	-webkit-text-shadow; 2px 2px 2px #000;	
+}
+
+table th:first-child {
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px
+}
+
+table th:last-child {
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius:10px
+}
+
+td {
+	padding: 0.3em;
+}
+
+.dark_blue {
+	background-color: #0065cc;
+}
+
+.light_blue {
+	background-color: #0072e5;
+}
+
+.lighter_blue {
+	background-color:  #007fff;
+}
+
+
+/*---------------------END TABLE------------------------------*/
+
+/*---------------------BEGIN FORM------------------------------*/
+
+.sign_up_form {
 	background-color: #c3c3c3;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	margin: 10px;
 }
 
-/*---------------------END SIGNUP FORM--------------------------*/
+.contact {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: right;
+}
+
+.hear {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	text-align: left;
+}
+
+.news {
+	margin-left: 8em;
+}
+
+.tel {
+	margin-left: 8em;
+}
+
+.rad {
+	margin-left: 8em;
+}
+
+.mem {
+	margin-left: 8em;
+} 
+
+#form_first {
+	margin-right: 1.5em;
+	margin-bottom: 0.3em;
+}
+
+#form_last {	
+	margin-right: 1.5em;
+	margin-bottom: 0.3em;
+}
+
+#form_phone {
+	margin-right: 1.5em;
+	margin-bottom: 0.3em;
+}
+
+#form_email {
+	margin-right: 1.5em;
+}
+
+#form_dropdown {
+	margin-top: 1.0em;
+}
+
+#form_selection {
+	margin-bottom: 1.0em;
+}
+
+#form_hear {
+	margin-top:  0.8em;
+}
+
+#form_consent {
+	margin-top:  0.8em;
+	text-align: left;
+}
+
+#form_submit {
+	margin-top: 0.8em;
+	text-align: center;
+}
+
+/*---------------------END FORM------------------------------*/
+
+/*-----------------------------END SIGN UP FORM AND TABLE-------------------------------*/
 
 
 .btmbutton {
@@ -318,12 +467,7 @@ footer ul li {
 /*-------------------------------------END CONTAINER------------------------------------*/
 
 
-
- 
-
-/* Media Queries */
-
- 
+/* Media Queries */ 
 
 /* Tablet Portrait size to standard 960 (devices and browsers)*/
 
@@ -481,9 +625,26 @@ footer ul li {
 	.cityview{
 		display: none;
 	}
-}
 
- 
+	.news {
+		margin-left: 0;
+	}
+	
+	.tel {
+		margin-left: 0;
+	
+	}
+	
+	.rad {
+		margin-left: 0;
+	
+	}
+	
+	.mem {
+		margin-left: 0;
+	
+	} 
+} 
 
 /* Mobile Portrait size to Mobile Landscape  (devices and browsers)*/
 
@@ -595,6 +756,39 @@ footer ul li {
 	
 	.resview{
 		display: none;
+	}
+	
+	.news {
+		margin-left: 0;
+	}
+	
+	.tel {
+		margin-left: 0;
+	}
+	
+	.rad {
+		margin-left: 0;
+	}
+	
+	.mem {
+		margin-left: 0;
+	} 
+	
+	#table_form {
+	clear: both;
+	padding-bottom: 0.3em;
+	margin-right: 10em;
+	width: 45%;
+	text-align: center;
+	}
+	
+	#form {
+		width: 80%;
+		margin-right:1.9em;
+		
+	}
+	.today {
+		margin-left: 3em;
 	}
 }
 
